@@ -30,7 +30,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-wrapper {
   display: flex;
@@ -117,7 +117,7 @@
   width: 226px;
 }
 .edit-mode > .all-inp[type="text"], .list-item > .all-inp[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .del-img {
   height: 2em;
@@ -130,19 +130,19 @@
 
 /* completed */
 .list#completed-tasks .all-lbl {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* edit task */
 .list-item .all-inp[type="text"],
 .edit-mode .all-inp[type="text"] {
-  display: none
+  display: none;
 }
 
 .edit-mode .all-inp[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .all-lbl {
