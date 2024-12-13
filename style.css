@@ -39,10 +39,13 @@
   margin: 0;
   padding: 0px;
 }
-.list-item, .edit-mode, .caption {
+.list-item, 
+.edit-mode, 
+.caption {
   list-style: none;
 }
-.all-inp,.all-btn{
+.all-inp,
+.all-btn{
   outline: none;
 }
 .all-btn {
@@ -94,7 +97,8 @@
 }
 
 /* task list */
-.list-item, .edit-mode {
+.list-item,
+.edit-mode {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -103,20 +107,24 @@
   justify-content: space-between;
   align-items: center;
 }
-.list-item > *, .edit-mode > * {
+.list-item > *,
+.edit-mode > * {
   vertical-align: middle;
 }
 
-.list-item > .all-inp[type="checkbox"], .edit-mode > .all-inp[type="checkbox"] {
+.list-item > .all-inp[type="checkbox"],
+.edit-mode > .all-inp[type="checkbox"] {
   margin: 0 10px;
 }
-.list-item > .all-lbl, .edit-mode > .all-lbl{
+.list-item > .all-lbl,
+.edit-mode > .all-lbl {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.edit-mode > .all-inp[type="text"], .list-item > .all-inp[type="text"] {
+.edit-mode > .all-inp[type="text"],
+.list-item > .all-inp[type="text"] {
   width: 226px;
 }
 .del-img {
