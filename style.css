@@ -10,10 +10,10 @@
   display: block;
   text-align: right;
 }
-.info-img {
+.info-section__img {
   width: 100%;
 }
-.more-inf {
+.info-section__link {
   font-family: fantasy, cursive;
 }
 
