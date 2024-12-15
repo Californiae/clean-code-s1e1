@@ -14,7 +14,8 @@
   width: 100%;
 }
 .info-section__link {
-  font-family: fantasy, cursive;
+  font-family: 'Papyrus';
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
