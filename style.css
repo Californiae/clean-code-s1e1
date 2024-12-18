@@ -98,12 +98,11 @@
 }
 
 /* task list */
-.list-item,
-.edit-mode {
+.list-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -113,19 +112,16 @@
   vertical-align: middle;
 }
 
-.list-item > .all-inp[type="checkbox"],
-.edit-mode > .all-inp[type="checkbox"] {
+.all-inp[type="checkbox"] {
   margin: 0 10px;
 }
-.list-item > .all-lbl,
-.edit-mode > .all-lbl {
+.list-item > .all-lbl {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.edit-mode > .all-inp[type="text"],
-.list-item > .all-inp[type="text"] {
+.all-inp[type="text"] {
   width: 226px;
 }
 .del-img {
